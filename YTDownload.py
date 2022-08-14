@@ -49,7 +49,6 @@ def populate_db(db_connection,db_cursor):
     channels = []
 	
     #add your channels here
-    channels.append("https://www.youtube.com/c/lexfridman")
     channels.append("https://www.youtube.com/c/Coffeezilla")
     
     #Look at n past videos
