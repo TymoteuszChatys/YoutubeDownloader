@@ -24,6 +24,7 @@ HOW TO USE
 =
 
 Edit the populate_db() function in the python script to add the channels that you want.
-you can also set 'n' - the number of past videos to download here to.
+
+You can also set 'n' - the number of past videos to download here too.
 
 Run the script using "python YTDownload.py".
