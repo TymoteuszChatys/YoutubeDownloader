@@ -60,7 +60,7 @@ def populate_db(db_connection,db_cursor):
 
 
 def download_videos(db_connection,db_cursor):
-    testing = True
+    testing = False
 
     for row in db_cursor.execute(f"SELECT * FROM Videos WHERE Downloaded = 0"):
         if testing == False:
